@@ -1,0 +1,16 @@
+{
+  "name": "yourvendor/yourproject",
+  "description": "A simple PHP backend based on MVC and JWT",
+  "type": "project",
+  "require": {
+    "firebase/php-jwt": "^6.9",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "core/",
+      "Controllers\\": "controllers/",
+      "Models\\": "models/"
+    }
+  }
+}
